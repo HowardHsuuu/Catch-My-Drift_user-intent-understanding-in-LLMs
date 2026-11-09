@@ -1,0 +1,64 @@
+{
+  "model": "gemma12b",
+  "models": {
+    "last-B_nonmatch_I": {
+      "target": "B_nonmatch_I",
+      "feature": "last",
+      "file": "last-B_nonmatch_I.npz",
+      "available": true,
+      "threshold": 0.0,
+      "training_samples": 535,
+      "sha256": "855823c0690835046dde01132b716b8d1d3ac77ace4e6002aefb1250d9c7364e"
+    },
+    "last-G": {
+      "target": "G",
+      "feature": "last",
+      "file": "last-G.npz",
+      "available": true,
+      "threshold": 0.0,
+      "training_samples": 537,
+      "sha256": "5d7adb39af663bf9e1b0dda36821534f7f9e9a9f476f18096b61b246ceb5a567"
+    },
+    "last-I": {
+      "target": "I",
+      "feature": "last",
+      "file": "last-I.npz",
+      "available": true,
+      "threshold": 0.0,
+      "training_samples": 535,
+      "sha256": "2b8216ff32e2c9ef80987bd4a68510b24ade80b39e7dd9009d53ae5fa49cf920"
+    },
+    "suffix_mean-B_nonmatch_I": {
+      "target": "B_nonmatch_I",
+      "feature": "suffix_mean",
+      "file": "suffix_mean-B_nonmatch_I.npz",
+      "available": true,
+      "threshold": 0.0,
+      "training_samples": 535,
+      "sha256": "afc7619b3daf52fe6aa30034ed65f3e673cde292e36e80471d31305d4163c846"
+    },
+    "suffix_mean-G": {
+      "target": "G",
+      "feature": "suffix_mean",
+      "file": "suffix_mean-G.npz",
+      "available": true,
+      "threshold": 0.0,
+      "training_samples": 537,
+      "sha256": "7cffec378df4c78d78fa752b8a0adcb566a0db444c8201539985192f5533744f"
+    },
+    "suffix_mean-I": {
+      "target": "I",
+      "feature": "suffix_mean",
+      "file": "suffix_mean-I.npz",
+      "available": true,
+      "threshold": 0.0,
+      "training_samples": 535,
+      "sha256": "009d351a114aaf85fad25a22dc6a1d42f124bf91e42dd4c7cc656a13d7e0150e"
+    }
+  },
+  "fit_split": "training",
+  "interpretation": "G, reported I, and later B/I mismatch; targets are operational labels",
+  "model_id": "google/gemma-3-12b-it",
+  "revision": "96b6f1eccf38110c56df3a15bffe176da04bfd80",
+  "layer": 33
+}

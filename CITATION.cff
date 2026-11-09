@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this work if you use the code or measurements."
+title: "Catch My Drift: Investigating Intent Understanding and Drift in Multi-Agent Panels"
+authors:
+  - family-names: Hsu
+    given-names: Chih-Hao Howard
+version: 0.1.0
+date-released: 2026-11-09
+url: "https://github.com/HowardHsuuu/Catch-My-Drift_user-intent-understanding-in-LLMs"
+license: MIT

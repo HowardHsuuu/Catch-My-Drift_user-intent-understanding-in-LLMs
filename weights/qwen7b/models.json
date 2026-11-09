@@ -1,0 +1,28 @@
+{
+  "model": "qwen7b",
+  "models": {
+    "last-I": {
+      "target": "I",
+      "feature": "last",
+      "file": "last-I.npz",
+      "available": true,
+      "threshold": 0.0,
+      "preexisting_probe": true,
+      "sha256": "9655423889d383f954e101e45555d579ea077db6102ec1f366e9a2176173e349"
+    },
+    "suffix_mean-I": {
+      "target": "I",
+      "feature": "suffix_mean",
+      "file": "suffix_mean-I.npz",
+      "available": true,
+      "threshold": 0.0,
+      "preexisting_probe": true,
+      "sha256": "65ca485453a005d7919db9e81dc81ae78e31076c10cdc94970ba4aee9f9ef9df"
+    }
+  },
+  "fit_split": "preexisting development data",
+  "interpretation": "I-report comparator; internal understanding is not validated",
+  "model_id": "Qwen/Qwen2.5-7B-Instruct",
+  "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "layer": 21
+}

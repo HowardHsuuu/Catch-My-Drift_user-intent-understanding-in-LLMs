@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "works": [
+    {
+      "id": "development_poem_01",
+      "form": "poem",
+      "split": "training",
+      "title": "Shared work",
+      "text": "Borrowed Gloves\nYour gloves are drying\non the radiator.\nI turn them over\nwithout knowing\nwhich side\nyou would have warmed first."
+    },
+    {
+      "id": "development_poem_02",
+      "form": "poem",
+      "split": "training",
+      "title": "Shared work",
+      "text": "Museum Steps\nThe museum closes.\nOn the steps\na child draws a square\naround a fallen leaf\nand charges nobody\nto look inside."
+    },
+    {
+      "id": "development_microfiction_01",
+      "form": "microfiction",
+      "split": "training",
+      "title": "Shared work",
+      "text": "The Spare Key\nMara found a key taped beneath the new mailbox. It opened the cupboard where the previous tenant had kept emergency candles. She left two candles there and taped the key back, although nobody had asked her to."
+    },
+    {
+      "id": "development_microfiction_02",
+      "form": "microfiction",
+      "split": "training",
+      "title": "Shared work",
+      "text": "Departure Board\nEvery morning the station board listed a train to a town that no longer existed. The cleaner kept that line free of dust. When a passenger finally asked about it, she pointed to the road behind the station and said it was a pleasant walk."
+    },
+    {
+      "id": "development_design_01",
+      "form": "design",
+      "split": "training",
+      "title": "Shared work",
+      "text": "Neighborhood Noticeboard\nA poster for a neighborhood tool exchange uses a large drawing of a folded ladder, hand-lettered dates and a narrow strip for contact details. The background is pale yellow, with small sketches of borrowed objects around the margins. The title shares its line with a short handwritten invitation."
+    },
+    {
+      "id": "development_design_02",
+      "form": "design",
+      "split": "training",
+      "title": "Shared work",
+      "text": "River Sound Cover\nAn album cover shows a narrow silver line crossing a dark green field. The track names are printed vertically along the right edge. A small photograph of a riverbank appears on the back, cropped so the water itself is outside the frame. The artist name is set in light gray."
+    },
+    {
+      "id": "development_project_01",
+      "form": "project",
+      "split": "training",
+      "title": "Shared work",
+      "text": "Window Weather Journal\nI made a month-long journal by drawing the view from my window each morning with one pencil. Each page has a small weather symbol and one sentence about the sounds outside. I arranged the pages in the order I drew them, including days when I had only a few minutes."
+    },
+    {
+      "id": "development_project_02",
+      "form": "project",
+      "split": "training",
+      "title": "Shared work",
+      "text": "Family Object Archive\nI photographed twelve ordinary objects kept by different relatives, using the same plain cloth as a background. Beside each image I placed a short account of how the object entered the family. Some accounts disagree, and I kept both versions rather than combining them."
+    },
+    {
+      "form": "design",
+      "id": "held_out_design_07",
+      "split": "held_out",
+      "text": "Bike Workshop Flyer\nA bicycle workshop flyer uses a single wheel as its central shape. The workshop title curves around the rim, with the date inside the hub. A dark orange background contrasts with pale lettering. The booking address is placed under a narrow drawing of a road.",
+      "title": "Shared work"
+    },
+    {
+      "form": "design",
+      "id": "held_out_design_10",
+      "split": "held_out",
+      "text": "Walking Route Zine\nA pocket zine maps a walking route through drawings of doorways rather than a conventional street plan. Each page has one doorway, a direction arrow and a short memory. The cover is bright pink, while the interior uses uneven black ink and generous blank margins.",
+      "title": "Shared work"
+    },
+    {
+      "form": "design",
+      "id": "held_out_design_12",
+      "split": "held_out",
+      "text": "Local Cinema Ticket\nA ticket for a local cinema uses the frame numbers of a film strip to hold the date, row and seat. The cinema name is small at the bottom. A line drawing of its entrance occupies the reverse, leaving a blank rectangle where visitors can write the film they saw.",
+      "title": "Shared work"
+    },
+    {
+      "form": "microfiction",
+      "id": "held_out_microfiction_08",
+      "split": "held_out",
+      "text": "The Lost Scarf\nThe scarf had been on the fence for a month. Every rainy day someone brought it into the cafe, and every dry morning someone hung it outside again. When its owner returned, the barista asked whether she would mind leaving a photograph.",
+      "title": "Shared work"
+    },
+    {
+      "form": "microfiction",
+      "id": "held_out_microfiction_09",
+      "split": "held_out",
+      "text": "After the Parade\nA boy followed the last marching band, collecting the paper stars that stuck to the wet road. At home he spread them on the kitchen table. His mother made him clear a place for supper, but she did not make him throw any away.",
+      "title": "Shared work"
+    },
+    {
+      "form": "microfiction",
+      "id": "held_out_microfiction_10",
+      "split": "held_out",
+      "text": "The New Neighbor\nThe new neighbor practiced her introduction in the elevator mirror. At the fourth floor, the doors opened on a man holding a broken cake. She forgot every sentence except her name, which turned out to be enough to make him laugh.",
+      "title": "Shared work"
+    },
+    {
+      "form": "poem",
+      "id": "held_out_poem_09",
+      "split": "held_out",
+      "text": "Empty Frame\nWe hang the empty frame\nabove the desk.\nEvery evening\nthe shadow inside it\narrives\na little earlier.",
+      "title": "Shared work"
+    },
+    {
+      "form": "poem",
+      "id": "held_out_poem_10",
+      "split": "held_out",
+      "text": "Garden Gate\nThe gate catches\non a stone in the path.\nEach visitor bends\nto move the same stone.\nEach rain\nreturns it.",
+      "title": "Shared work"
+    },
+    {
+      "form": "poem",
+      "id": "held_out_poem_11",
+      "split": "held_out",
+      "text": "Small Hours\nThe refrigerator stops.\nFor a moment\nthe whole apartment\nseems to be listening\nfor the water\nin the next room.",
+      "title": "Shared work"
+    },
+    {
+      "form": "project",
+      "id": "held_out_project_08",
+      "split": "held_out",
+      "text": "Night Shift Interviews\nI made a short booklet from conversations with people who work while I sleep. Each interview begins with a description of the light in their workplace. I paired the text with photographs of empty streets taken on my way home, keeping the interview voices separate.",
+      "title": "Shared work"
+    },
+    {
+      "form": "project",
+      "id": "held_out_project_11",
+      "split": "held_out",
+      "text": "Unsent Postcards\nI designed ten postcards showing places I visit regularly and wrote each to someone I have not contacted in years. I left the cards unsent and displayed both sides in clear sleeves. The messages refer to small present-day details rather than explaining why we lost touch.",
+      "title": "Shared work"
+    },
+    {
+      "form": "project",
+      "id": "held_out_project_12",
+      "split": "held_out",
+      "text": "One Street in Winter\nI photographed the same short street every Sunday through winter, standing at the same corner. I printed the images at postcard size and placed them beside notes about what changed. Parked cars, bins and temporary road signs appear more often than the buildings do.",
+      "title": "Shared work"
+    }
+  ]
+}

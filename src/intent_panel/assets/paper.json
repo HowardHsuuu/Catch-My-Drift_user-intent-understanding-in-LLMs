@@ -1,0 +1,23 @@
+{
+  "title": "Catch My Drift: Investigating Intent Understanding and Drift in Multi-Agent Panels",
+  "author": "Chih-Hao Howard Hsu",
+  "models": {
+    "qwen3b": {
+      "family_size": 3
+    },
+    "qwen7b": {
+      "family_size": 3
+    },
+    "qwen14b": {
+      "family_size": 3
+    },
+    "gemma12b": {
+      "family_size": 1
+    }
+  },
+  "rows": 5184,
+  "sha256": "46f89c0fb10703d918c27f3f2b50af723e53d654ae50d30a89dc73d7dcc9426b",
+  "semantic_labels": "AI-reviewed; no independent human semantic ground truth",
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 8161
+}

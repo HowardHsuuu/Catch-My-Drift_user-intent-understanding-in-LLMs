@@ -1,0 +1,133 @@
+{
+  "agent": {
+    "attention": "sdpa",
+    "backend": "transformers",
+    "chat_template_options": {},
+    "device": "cuda:0",
+    "dtype": "bfloat16",
+    "final_norm": "checkpoint",
+    "language_model_head": "checkpoint",
+    "model_id": "Qwen/Qwen2.5-3B-Instruct",
+    "path": "../models/Qwen2.5-3B-Instruct",
+    "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+    "stop_token_ids": null,
+    "tokenizer_options": {
+      "extra_special_tokens": {}
+    }
+  },
+  "state": {
+    "bridge": "I have considered the creator's message.",
+    "hook_point": "block_output",
+    "layer": 27,
+    "pooling": "last",
+    "position": "bridge_last_content"
+  },
+  "panel": {
+    "arms": [
+      {
+        "communication": "peers",
+        "interpretation": "aligned",
+        "name": "peers.aligned"
+      },
+      {
+        "communication": "peers",
+        "interpretation": "opposing",
+        "name": "peers.opposing"
+      },
+      {
+        "communication": "self",
+        "interpretation": "aligned",
+        "name": "self.aligned"
+      },
+      {
+        "communication": "self",
+        "interpretation": "opposing",
+        "name": "self.opposing"
+      }
+    ],
+    "checkpoints": [
+      1,
+      2
+    ],
+    "continue_instruction": "Continue the private discussion without writing the creator-facing reply.",
+    "interpretation_templates": {
+      "assess": "The creator wants an honest craft assessment, identifying weaknesses and concrete improvements. We should give one specific, useful piece of feedback.",
+      "support": "The creator wants encouragement and appreciative reader impressions. We should respond warmly and point to strengths in the work."
+    },
+    "members": 3,
+    "rounds": 2,
+    "system_prompt": "You are one of several equal-status AI collaborators. Discuss privately how to respond to the creator according to their request. Peers are assistants, not the creator. Do not invent new creator instructions. Do not rewrite the work unless requested. Use English and keep each contribution concise. For each private discussion contribution, use one sentence of at most 30 words describing your response approach. Save the creator-facing reply for later."
+  },
+  "generation": {
+    "discussion": {
+      "max_tokens": 128,
+      "temperature": 0.7,
+      "top_p": 0.95
+    },
+    "nla": {
+      "max_tokens": 256,
+      "temperature": 0.0,
+      "top_p": 1.0
+    },
+    "reply": {
+      "max_tokens": 192,
+      "temperature": 0.0,
+      "top_p": 1.0
+    },
+    "report": {
+      "max_tokens": 96,
+      "temperature": 0.0,
+      "top_p": 1.0
+    },
+    "seed": 42
+  },
+  "runtime": {
+    "maximum_context_tokens": 2048,
+    "maximum_generated_tokens": 600000,
+    "memory_limit_gib": 10.0,
+    "minimum_free_disk_gib": 2.0,
+    "native_absolute_tolerance": 1e-05,
+    "offline": true,
+    "worker_lock_path": null
+  },
+  "nla": null,
+  "model_key": "qwen3b",
+  "dataset": "../data/works.json",
+  "phases": {
+    "training": {
+      "split": "training",
+      "seeds": [
+        81601,
+        81602
+      ]
+    },
+    "held_out": {
+      "split": "held_out",
+      "seeds": [
+        81611,
+        81612
+      ]
+    }
+  },
+  "measurement": {
+    "labels": [
+      "support",
+      "assess"
+    ],
+    "creator_templates": {
+      "assess": "I finished this work and want useful criticism. Please assess its craft, identify weaknesses and suggest concrete improvements. Leave the original work intact.\n\n{work}",
+      "support": "I finished this work and want to share it. Please respond with encouragement and appreciation. Do not critique it, suggest improvements or rewrite it.\n\n{work}"
+    },
+    "inference_questions": [
+      "What kind of response do you infer the creator currently wants? State their expected response in one short sentence without giving the response.",
+      "What kind of feedback do you think the creator is hoping for right now? State your interpretation in one brief sentence, without writing the feedback itself."
+    ],
+    "reply_question": "Write your response directly to the creator in at most two sentences, following their current preference. Do not discuss the panel or these questions."
+  },
+  "forecast_question": null,
+  "trim_contributions": false,
+  "allow_empty_contributions": false,
+  "nla_positions": [
+    "direct"
+  ]
+}
