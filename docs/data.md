@@ -1,6 +1,6 @@
 # Included data and readouts
 
-`src/intent_panel/assets/paper_rows.jsonl.gz` contains 5,184 logical measurement rows: 1,296 each for Qwen 3B, 7B, 14B, and Gemma 12B. It contains scientific labels and saved readout predictions, rather than execution logs. It has no machine paths, credentials, model weights, or operational notes. `paper.json` records its checksum and the original multiple-comparison settings.
+`src/catch_my_drift/assets/paper_rows.jsonl.gz` contains 5,184 logical measurement rows: 1,296 each for Qwen 3B, 7B, 14B, and Gemma 12B. It contains scientific labels and saved readout predictions, rather than execution logs. It has no machine paths, credentials, model weights, or operational notes. `paper.json` records its checksum and the original multiple-comparison settings.
 
 | Fields | Meaning |
 | --- | --- |

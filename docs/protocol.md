@@ -10,8 +10,6 @@ At **C0**, members generate their initial contributions. At **C1**, one incoming
 
 Each test cohort has 12 works × 2 requests × 2 seeds = 48 cases. A case has three baseline measurements and 24 post-exposure measurements across four arms: 27 logical contexts. Shared physical states are reused rather than independently resampled. This is a short panel, not a long-horizon experiment.
 
-![Collection and independent measurement branches](../paper/figures/figure-1-protocol.png)
-
 ## Measurements
 
 | Symbol | Measurement | Interpretation |

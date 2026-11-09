@@ -19,13 +19,13 @@ inference = ["torch>=2.8,<3", "transformers==4.57.6", "huggingface-hub>=0.34,<1"
 Repository = "https://github.com/HowardHsuuu/Catch-My-Drift_user-intent-understanding-in-LLMs"
 
 [project.scripts]
-catch-my-drift = "intent_panel.cli:main"
+catch-my-drift = "catch_my_drift.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
 
 [tool.setuptools.package-data]
-intent_panel = ["assets/*.json", "assets/*.jsonl.gz"]
+catch_my_drift = ["assets/*.json", "assets/*.jsonl.gz"]
 
 [tool.ruff]
 line-length = 100

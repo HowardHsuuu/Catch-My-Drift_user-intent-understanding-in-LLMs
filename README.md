@@ -6,7 +6,7 @@ Chih-Hao Howard Hsu · Independent Researcher · Swarm Alignment Hackathon 2026
 
 When an agent panel gives a reply that conflicts with a user's request, has its interpretation changed, has its stated approach shifted, or has execution failed? This project compares peer discussion with self-reconsideration and examines what activation probes, natural language autoencoders (NLAs), and intent reports can detect.
 
-[Read the paper](paper/catch-my-drift.pdf) · [Experiment protocol](docs/protocol.md) · [Run new experiments](docs/experiments.md)
+[Experiment protocol](docs/protocol.md) · [Run new experiments](docs/experiments.md)
 
 ## Findings
 
@@ -15,8 +15,6 @@ When an agent panel gives a reply that conflicts with a user's request, has its 
 - **Readouts have different blind spots.** Qwen NLA flags 15/18 final departures with an incorrect intent report, but 1/7 with a correct report. Gemma's future-mismatch probe flags 18/29 reply–report mismatches, with 21 false alarms.
 
 These are observations about short, controlled panels. Reports and activation readouts do not establish internal understanding, psychological commitment, or the cause of a failure.
-
-![Peer effects and first-exposure departure profiles](paper/figures/figure-2-effects-and-profiles.png)
 
 ## Reproduce the results without a GPU
 
@@ -50,16 +48,15 @@ The Qwen 7B and Gemma 12B presets include matched released NLAs. Qwen 3B/14B hav
 
 | Path | Contents |
 | --- | --- |
-| `src/intent_panel/` | Collection, NLA, review, probe fitting, and analysis code |
+| `src/catch_my_drift/` | Collection, NLA, review, probe fitting, and analysis code |
 | `configs/` | Pinned model and experiment settings |
 | `data/works.json` | Eight training and twelve test works, all synthetic |
 | `weights/` | Small fitted readout arrays for Qwen 7B and Gemma 12B |
-| `paper/` | Report and PNG figures |
 
 The [data guide](docs/data.md) explains the included measurement rows, labels, shared states, and uncertainty calculations. Semantic labels were supplied by an AI reviewer; there is no independent human semantic ground truth.
 
 The panel framework and original Qwen 7B probes predate the sprint. The reported model-size comparison, Gemma extension, and diagnostic analyses were conducted for the sprint. This public runner consolidates the experiment scripts; the included measurements preserve the reported results. Fresh inference can vary with hardware and numerical libraries.
 
-## Citation and license
+## License
 
-See [CITATION.cff](CITATION.cff). Code, synthetic tasks, and readout coefficients are released under the [MIT license](LICENSE). Downloaded language models and NLAs retain their original licenses and access requirements.
+Code, synthetic tasks, and readout coefficients are released under the [MIT license](LICENSE). Downloaded language models and NLAs retain their original licenses and access requirements.

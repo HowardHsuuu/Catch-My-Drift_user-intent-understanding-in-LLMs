@@ -127,7 +127,7 @@ def model_lease(config, path):
     lock = (
         resolve_path(config.runtime.worker_lock_path, path)
         if config.runtime.worker_lock_path
-        else (Path(tempfile.gettempdir()) / ("intent-panel-" + str(os.getuid()) + ".lock"))
+        else (Path(tempfile.gettempdir()) / ("catch-my-drift-" + str(os.getuid()) + ".lock"))
     )
     lock.parent.mkdir(parents=True, exist_ok=True)
     with lock.open("a") as stream:
